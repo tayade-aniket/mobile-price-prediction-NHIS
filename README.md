@@ -1,6 +1,3 @@
-Here's a comprehensive `README.md` file for your Mobile Phone Price Prediction project that you can add to your GitHub repository:
-
-```markdown
 # Mobile Phone Price Prediction
 
 ![Project Banner](https://via.placeholder.com/800x200?text=Mobile+Phone+Price+Prediction) 
