@@ -1,7 +1,6 @@
 # Mobile Phone Price Prediction
 
-![Project Banner](https://via.placeholder.com/800x200?text=Mobile+Phone+Price+Prediction) 
-*Replace with an actual banner image if available*
+![Project Banner](images/dataset-cover.png) 
 
 ## 📌 Project Overview
 
@@ -84,29 +83,21 @@ pip install -r requirements.txt
 jupyter notebook Mobile_Price_Prediction.ipynb
 ```
 
-## 📁 Project Structure
-
-```
-mobile-price-prediction/
-├── data/
-│   └── Processed_Flipdata.csv
-├── notebooks/
-│   └── Mobile_Price_Prediction.ipynb
-├── models/
-│   └── best_gb_model.pkl
-├── README.md
-└── requirements.txt
-```
 
 ## 📊 Results
 
-| Model                | MAE   | RMSE  | R2 Score |
-|----------------------|-------|-------|----------|
-| Gradient Boosting    | [X]   | [X]   | [X]      |
-| Random Forest        | [X]   | [X]   | [X]      |
+| Model                | MAE      | RMSE     | R2 Score |
+|----------------------|----------|----------|----------|
+| Random Forest        | 301.38   | 661.05   | 0.992    |
+| Gradient Boosting    | 415.86   | 708.15   | 0.991    |
+| Decision Tree        | 248.70   | 898.77   | 0.986    |
+| KNN                  | 1665.08  | 2497.12  | 0.894    |
+| Lasso Regression     | 2554.62  | 3523.09  | 0.789    |
+| Linear Regression    | 2557.26  | 3525.41  | 0.789    |
+| Ridge Regression     | 2573.36  | 3592.39  | 0.781    |
+| SVR                  | 5701.74  | 7748.35  | -0.015   |
 
-![Actual vs Predicted Prices](images/actual_vs_predicted.png)
-*Example visualization - replace with your actual plots*
+![Actual vs Predicted Prices](images/prediction.png)
 
 ## 💡 Key Insights
 
@@ -130,11 +121,6 @@ mobile-price-prediction/
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## 📜 License
 
-[MIT License](LICENSE)
-
----
-
-**Created by [Your Name]** - [GitHub Profile](https://github.com/yourusername)
+**Created by Mr. Aniket Tayade** - [GitHub Profile](https://github.com/tayade-aniket)
 ```
